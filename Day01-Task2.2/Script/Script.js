@@ -27,7 +27,25 @@ function compare(str) {
             flag = true;
         } else {
             flag = false;
+            break;
         }
     }
     return flag;
+
 }
+/*
+function compare(str) {
+    // for (var i = 0; i < (str.length / 2); i++) {
+    var i = 0;
+    do {
+        if (str[i] === str[str.length - 1 - i]) {
+            flag = true;
+        } else {
+            flag = false;
+        }
+        i++;
+    } while ((str.length / 2));
+    //}
+    return flag;
+
+}*/

@@ -9,4 +9,4 @@ for (var i = 0; i < text.length; i++) {
         count++;
     }
 }
-alert("The number of " + char + " is : " + count);
+alert("The number of " + char + " In ( " + text + " ) is : " + count);

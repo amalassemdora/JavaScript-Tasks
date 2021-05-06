@@ -1,8 +1,16 @@
 * {
     font-size: 30px;
+    line-height: 1.8;
 }
 
-.text {
+.red {
+    color: red;
+}
+
+.blue {
     color: blue;
-    line-height: 1.8;
+}
+
+.green {
+    color: green;
 }
