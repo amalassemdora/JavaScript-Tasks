@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    width: 500px;
+}
+
+.buttons input {
+    width: 20%;
+    margin-left: 3%;
+}

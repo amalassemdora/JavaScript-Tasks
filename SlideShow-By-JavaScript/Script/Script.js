@@ -1,27 +1,35 @@
-//Function of number value
-function EnterNumber(ourButton) {
-    document.getElementById("Answer").value += ourButton.value.trim();
-    ourButton.style.backgroundColor = "#53A7D8";
-}
-//Function of operation
-function EnterOperator(ourButton) {
-    document.getElementById("Answer").value += ourButton.value.trim();
-    ourButton.style.backgroundColor = "#53A7D8";
+//function of next image
+var count = 1;
+
+function nextImg() {
+    if (!(count == 6)) {
+        document.getElementById("img").src = ("../Images/" + ++count + ".jpg");
+    }
 }
 
-//function clear
-function EnterClear() {
-    document.getElementById("Answer").value = "";
-    ourButton.style.backgroundColor = "#53A7D8";
+//function previous Image
+
+function previousImg() {
+    if (!(count == 1)) {
+        document.getElementById("img").src = ("../Images/" + --count + ".jpg");
+    }
 }
 
-//reset color
-function clickOut(ourButton) {
-    ourButton.style.backgroundColor = "#EFEFEF";
-}
+//function SlideShow
 
-//function equal
-function EnterEqual() {
-    var result = eval(document.getElementById("Answer").value);
-    document.getElementById("Answer").value = result;
+var timer;
+
+function slideShow() {
+    clearInterval(timer);
+    timer = setInterval(function() {
+        if (count == 6) {
+            count = 0;
+        }
+        document.getElementById("img").src = ("../Images/" + ++count + ".jpg");
+
+    }, 2000);
+}
+//function stop slideshow
+function stopSlide() {
+    clearInterval(timer);
 }

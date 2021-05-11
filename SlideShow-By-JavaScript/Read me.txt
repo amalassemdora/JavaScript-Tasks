@@ -1,0 +1,8 @@
+Photo gallery with Next, Previous and Slideshow.
+ Next goes to next pic and stops when reaching last image
+ Previous goes back to previous image and stops when 
+reaching first image
+ Slideshow will circulate, i.e. when reach last image is 
+should continue displaying staring from first image
+ Stop will stop slideshow behavior.
+ Let the delay between every to image lasts 2 seconds
