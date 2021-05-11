@@ -1,0 +1,21 @@
+#header {
+    text-align: center;
+}
+
+#bottomleft {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#topright {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#navigation {
+    width: 70px;
+    margin: auto auto;
+    padding-top: 10px;
+}
