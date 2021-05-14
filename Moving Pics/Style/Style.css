@@ -1,0 +1,34 @@
+.container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.game {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons input {
+    width: 100px;
+    text-align: center;
+}
+
+
+/*
+#img2 {
+    float: right;
+    margin-top: 226px;
+}
+
+#img3 {
+    margin-top: 470px;
+    margin-left: 190px;
+}*/
