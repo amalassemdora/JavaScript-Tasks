@@ -13,8 +13,9 @@ function GetAllCookies() {
     var elem = document.cookie.split(";");
     assArr = [];
     for (var i = 0; i < elem.length; i++) {
-        assArr[elem[i].split("=")[0]] = elem[i].split("=")[1];
+        assArr[elem[i].split("=")[0].trim()] = elem[i].split("=")[1];
 
     }
     return assArr;
 }
+console.log(GetAllCookies());
