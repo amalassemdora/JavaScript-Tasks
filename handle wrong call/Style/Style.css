@@ -1,0 +1,23 @@
+.input {
+    width: 50%;
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+select {
+    margin: 20px 0px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 45%;
+}
+
+fieldset {
+    width: 550px;
+    margin: 10px auto;
+}
